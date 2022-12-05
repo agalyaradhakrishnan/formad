@@ -1,0 +1,27 @@
+.rounded-pill{ 
+    margin-left: 210px;
+    padding: 10px 40px;
+    background-color:cornflowerblue;
+    border: none;
+}
+.icons i{
+    border-radius: 50%;
+    outline-color: cornflowerblue;
+    outline-style: solid;
+    font-size: 30px;
+    background-color: cornsilk;
+}
+.container{
+    box-shadow: 2px 2px 4px 2px black;
+    margin-top: 5%;
+}
+@media(max-width:560px){
+    .rounded-pill{
+        margin-left:150px;
+    }
+}
+@media(max-width:480px){
+    .rounded-pill{
+        margin-left:110px;
+    }
+}
